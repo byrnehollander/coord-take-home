@@ -26,7 +26,7 @@ Unfortunately, these APIs cost money per request, so I've limited them to 100 re
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), so it should look pretty familiar if you've used CRA before.
 
-## Create a `.env` file
+### Create a `.env` file
 
 You can run `cp .env.sample .env` and set values for both `REACT_APP_COORD_ACCESS_KEY` and `REACT_APP_GOOGLE_GEOCODING_API_KEY` in `.env`. Then, run `source .env`.
 ### `yarn start`
