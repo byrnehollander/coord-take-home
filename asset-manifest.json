@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coord-take-home/static/css/main.4464963b.chunk.css",
-    "main.js": "/coord-take-home/static/js/main.37eea201.chunk.js",
-    "main.js.map": "/coord-take-home/static/js/main.37eea201.chunk.js.map",
+    "main.js": "/coord-take-home/static/js/main.c120faed.chunk.js",
+    "main.js.map": "/coord-take-home/static/js/main.c120faed.chunk.js.map",
     "runtime-main.js": "/coord-take-home/static/js/runtime-main.86182992.js",
     "runtime-main.js.map": "/coord-take-home/static/js/runtime-main.86182992.js.map",
     "static/js/2.6a0e81f2.chunk.js": "/coord-take-home/static/js/2.6a0e81f2.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.86182992.js",
     "static/js/2.6a0e81f2.chunk.js",
     "static/css/main.4464963b.chunk.css",
-    "static/js/main.37eea201.chunk.js"
+    "static/js/main.c120faed.chunk.js"
   ]
 }
