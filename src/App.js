@@ -46,16 +46,16 @@ const App = () => {
   }, [latitude, longitude])
 
   const renderNumParkingSpots = () => {
+    if (error) {
+      return <div>Error! {error}</div>
+    }
+
     if (isGeocoding || isFetching) {
       return <div>Loading...</div>
     }
 
     if (!latitude || !longitude) {
       return <div>Enter an NYC address above to get the number of parking spaces near you</div>
-    }
-
-    if (error) {
-      return <div>Error! {error}</div>
     }
 
     let validSpaces
