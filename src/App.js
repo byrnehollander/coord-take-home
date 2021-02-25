@@ -76,7 +76,7 @@ const App = () => {
   return (
     <div>
       <div>Welcome! This app takes an address within one of the five boroughs of NYC and returns the number of available parking spots within 0.3 km (about 1000 feet).
-        <div style={{ marginTop: 20, fontWeight: 600 }}>Disclaimers:</div>
+        <div className='disclaimer'>Disclaimers:</div>
         <ul>
           <li>The parking spots returned are all at least 5.5m (18 feet) long. This means they'll fit cars like Toyota Camrys (16 feet long), but not large trucks.</li>
           <li>Any type of car can park in these spots – not just commercial vehicles.</li>

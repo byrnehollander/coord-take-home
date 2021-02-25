@@ -24,3 +24,8 @@ code {
   width: 30px;
   margin-left: 5px;
 }
+
+.disclaimer {
+  margin-top: 20px;
+  font-weight: 600;
+}
