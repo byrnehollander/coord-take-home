@@ -35,6 +35,14 @@ const AddressSearch = ({
     setAddress(address)
   }
 
+  const resetState = () => {
+    setAddress('')
+    setIsInNYC(false)
+    setLatitude(null)
+    setLongitude(null)
+    clearResponse()
+  }
+
   const handleSelect = selected => {
     setAddress(selected)
     if (isAddressInNYC(selected)) {
@@ -52,16 +60,12 @@ const AddressSearch = ({
           setIsGeocoding(false)
         })
     } else if (isInNYC) {
-      setIsInNYC(false)
+      resetState()
     }
   }
 
   const handleCloseClick = () => {
-    setAddress('')
-    setIsInNYC(false)
-    setLatitude(null)
-    setLongitude(null)
-    clearResponse()
+    resetState()
   }
 
   return (
