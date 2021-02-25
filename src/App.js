@@ -91,6 +91,9 @@ const App = () => {
         clearResponse={() => setResponse(null)}
       />
       {renderNumParkingSpots()}
+      <div className='github-link'>
+        <a href='https://github.com/byrnehollander/coord-take-home/' rel='noopener noreferrer' target='_blank'>View code on Github</a>
+      </div>
     </div>
   )
 }

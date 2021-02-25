@@ -2,7 +2,7 @@
   "name": "coord-take-home",
   "homepage": "https://byrnehollander.github.io/coord-take-home",
   "version": "0.1.0",
-  "license": "MIT License",
+  "license": "Unlicense",
   "private": false,
   "dependencies": {
     "axios": "^0.21.1",
