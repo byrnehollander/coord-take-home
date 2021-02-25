@@ -12,7 +12,7 @@ const BASE_URL = 'https://api.coord.co/v1/search/curbs/bylocation/time_rules?'
 const initParams = {
   radius_km: RADIUS_KM,
   access_key: ACCESS_KEY,
-  primary_use: PARKING_USE,
+  permitted_use: PARKING_USE,
   vehicle_type: ALL_VEHICLE_TYPES
 }
 
