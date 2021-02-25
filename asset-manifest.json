@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/coord-take-home/static/css/main.34dbd63e.chunk.css",
+    "main.js": "/coord-take-home/static/js/main.63d8f59c.chunk.js",
+    "main.js.map": "/coord-take-home/static/js/main.63d8f59c.chunk.js.map",
+    "runtime-main.js": "/coord-take-home/static/js/runtime-main.86182992.js",
+    "runtime-main.js.map": "/coord-take-home/static/js/runtime-main.86182992.js.map",
+    "static/js/2.6a0e81f2.chunk.js": "/coord-take-home/static/js/2.6a0e81f2.chunk.js",
+    "static/js/2.6a0e81f2.chunk.js.map": "/coord-take-home/static/js/2.6a0e81f2.chunk.js.map",
+    "index.html": "/coord-take-home/index.html",
+    "static/css/main.34dbd63e.chunk.css.map": "/coord-take-home/static/css/main.34dbd63e.chunk.css.map",
+    "static/js/2.6a0e81f2.chunk.js.LICENSE.txt": "/coord-take-home/static/js/2.6a0e81f2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86182992.js",
+    "static/js/2.6a0e81f2.chunk.js",
+    "static/css/main.34dbd63e.chunk.css",
+    "static/js/main.63d8f59c.chunk.js"
+  ]
+}
