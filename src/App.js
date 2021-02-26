@@ -9,14 +9,14 @@ const ALL_VEHICLE_TYPES = 'all'
 const ACCESS_KEY = process.env.REACT_APP_COORD_ACCESS_KEY
 const BASE_URL = 'https://api.coord.co/v1/search/curbs/bylocation/time_rules?'
 
-const initParams = {
+const INIT_PARAMS = {
   radius_km: RADIUS_KM,
   access_key: ACCESS_KEY,
   permitted_use: PARKING_USE,
   vehicle_type: ALL_VEHICLE_TYPES
 }
 
-const params = new URLSearchParams(initParams)
+const params = new URLSearchParams(INIT_PARAMS)
 
 const App = () => {
   const [latitude, setLatitude] = useState()
@@ -58,7 +58,7 @@ const App = () => {
       return <div>Enter an NYC address above to get the number of parking spaces near you</div>
     }
 
-    let validSpaces
+    let validSpaces = []
     if (response?.data?.features?.length > 0) {
       validSpaces = response.data.features.filter(i => {
         const end = i?.properties?.metadata?.distance_end_meters
@@ -70,7 +70,7 @@ const App = () => {
         return false
       })
     }
-    return <div>There are {validSpaces?.length || 0} parking spots nearby.</div>
+    return <div>There are {validSpaces.length} parking spots nearby.</div>
   }
 
   return (
